@@ -118,11 +118,14 @@ body, html {
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h1><strong>Monthly Talkshow</strong></h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+      <p>Instead of inviting some famous and surpass hosts in their major, 
+        </br> we prefer inviting people who are close to us and they have experience, 
+        </br> so their sharing will be more real and we can easily study or apply. 
+      </p>
+      <p><a href="test.html" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
     </div>
     <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="./assets/images/liu dooc.jpg" alt="Buildings" width="700" height="394">
+      <img class="w3-image w3-round-large" src="3.jpg" alt="Buildings" width="700" height="394">
     </div>
   </div>
 </div>
@@ -206,32 +209,41 @@ body, html {
 
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
-      <img src="./assets/images/psychology.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Psychology">
+      <img src="psy.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Psychology">
     </div>
     <div class="w3-col l3 m6">
-      <img src="./assets/images/mythology.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Mythology">
+      <img src="myth.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Mythology">
     </div>
     <div class="w3-col l3 m6">
-      <img src="./assets/images/alcohol.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Liquor">
+      <img src="liquor.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Liquor">
     </div>
     <div class="w3-col l3 m6">
-      <img src="./assets/images/communicating.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Communicating Skill">
+      <img src="communicate.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Communicating">
     </div>
   </div>
 
   <div class="w3-row-padding w3-section">
     <div class="w3-col l3 m6">
-      <img src="./assets/images/history.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="History">
+      <img src="history.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="History">
     </div>
     <div class="w3-col l3 m6">
-      <img src="./assets/images/investing.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Investing">
+      <img src="invest.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Investing">
     </div>
     <div class="w3-col l3 m6">
-      <img src="./assets/images/person.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Personal Finance">
+      <img src="photography.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Photography ">
     </div>
     <div class="w3-col l3 m6">
-      <img src="./assets/images/marketing.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Marketing">
+      <img src="marketing.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Marketing">
     </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
 
